@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/dogdave/dogbot/issues"
   },
-  "homepage": "https://github.com/dogdave/dogbot#readme"
+  "homepage": "https://github.com/dogdave/dogbot#readme",
+  "dependencies": {
+    "claudia-bot-builder": "^2.15.0",
+    "huh": "^2.0.1"
+  }
 }
