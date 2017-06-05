@@ -1,0 +1,11 @@
+{
+  "lambda": {
+    "role": "dogbot-executor",
+    "name": "dogbot",
+    "region": "us-west-2"
+  },
+  "api": {
+    "id": "kh8wae6vyb",
+    "module": "bot"
+  }
+}

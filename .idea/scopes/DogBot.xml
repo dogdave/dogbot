@@ -1,0 +1,3 @@
+<component name="DependencyValidationManager">
+  <scope name="DogBot" pattern="!file:bot.js&amp;&amp;!file:claudia.json||file[dogbot]:*" />
+</component>

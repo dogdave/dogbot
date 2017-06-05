@@ -2,8 +2,7 @@
 var botBuilder = require('claudia-bot-builder');
     //excuse = require('huh');
 
-var Dogbot = require('./dogbot_main');
-var dogbot = new Dogbot();
+var dogbot = require('./dogbot_main.js');
 
 module.exports = botBuilder(function (message, originalRequest) {
     return dogbot.respond(message, originalRequest);

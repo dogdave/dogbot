@@ -1,6 +1,8 @@
+
+
 var dogbot = function (message, request) {};
 
-dogbot.prototype.respond = function (message, request) {
+module.exports = dogbot.prototype.respond = function (message, request) {
     var response = 'Error, null response';
 
     //debug
@@ -8,9 +10,10 @@ dogbot.prototype.respond = function (message, request) {
         response = 'Received : ' + message.text + '\r' +
                 'Full Original Message : ' + JSON.stringify(request);
     }
+    return response;
 };
 
-module.exports = new dogbot(message, request);
+
 /*
 module.exports = botBuilder(function (message) {
     return 'Thanks for sending ' + message.text +
