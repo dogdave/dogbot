@@ -58,5 +58,5 @@ typings/
 .env
 
 # API Keys
-API_Access.js
+./API_Access.js
 
