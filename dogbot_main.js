@@ -80,7 +80,9 @@ function SlackResponse(message, request, debug, request_type){
         SlackResponse += 'Time: ' + RequestTime.toLocaleString() + '\r';
     }
 
+/* Old Code - Ignore
     var parse_index =0;
+
 
     // New Reservation Request?
     parse_index = message.text.indexOf("reservation");
@@ -100,8 +102,20 @@ function SlackResponse(message, request, debug, request_type){
         var StartDate = new Date();
         var EndDate = new Date();
     }
+*/
 
-    // Reservation Status Request?
+// BEGIN PSUEDOCODE
+    // Switch on Message Type
+
+        // Reservation Status Request
+            // Match User ID and next upcoming calendar object in Google Calendar
+            // Create confirmation message
+
+        // New Reservation Request
+            // Get Start Date + Time
+            // Get End Date + Time
+            // Create reservation in Google Calendar
+            // Create confirmation message with details
 
     return SlackResponse;
 };
