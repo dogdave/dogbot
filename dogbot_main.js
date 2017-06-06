@@ -1,19 +1,19 @@
+/* Comment Block Goes Here
 
+ */
+var DogBot = function (){};
 
-var dogbot = function (message, request) {};
-
-module.exports = dogbot.prototype.respond = function (message, request) {
+DogBot.prototype.respond = function (message, request) {
     var response = 'Error, null response';
-
     //debug
-    if (message.length >0){
+    if (message.text.length >0){
         response = 'Received : ' + message.text + '\r' +
                 'Full Original Message : ' + JSON.stringify(request);
     }
     return response;
 };
 
-
+module.exports = DogBot;
 /*
 module.exports = botBuilder(function (message) {
     return 'Thanks for sending ' + message.text +
