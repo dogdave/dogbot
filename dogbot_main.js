@@ -74,13 +74,14 @@ function classify_request(message){
 
 function SlackResponse(message, request, debug, request_type){
     var SlackResponse = '';
-    var User = message.sender;
+    var SenderID = message.sender;
+    var SenderName = request.indexOf("username")
     var UserID = 0;
     var RequestTime =  new Date();
 
     if (debug){
         SlackResponse += 'Slack Debug On' + '\r';
-        SlackResponse += 'User: ' + User + '\r';
+        SlackResponse += 'SenderID: ' + SenderID + '\r';
         SlackResponse += 'Time: ' + RequestTime.toLocaleString() + '\r';
     }
 
@@ -107,8 +108,10 @@ function SlackResponse(message, request, debug, request_type){
         var EndDate = new Date();
     }
 */
+
+
 // Create or Update Hubspot Customer Data
-UserID = Hubspot.Search("SlackID", User);
+UserID = Hubspot.Search("SlackID", SenderName);
 if (UserID === 0){
     // Create a new user
 }
@@ -120,7 +123,7 @@ else {
 
 
 
-
+/// ***** MUST ASSUME SLACK USERNAME IS FIRST NAME IN HUBSPOT ***** ////
 
 // Create or Update Google Calendar
 // BEGIN PSUEDOCODE
