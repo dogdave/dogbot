@@ -3,29 +3,31 @@
  */
 // Top Line Includes
 var moment = require('moment');
+var http_request = require('request');
 var API_Keys = require('./API_Access.js');
+var Hubspot = require('./Hubspot_Integration.js');
 
 // Main Function
 var DogBot = function (){};
 DogBot.prototype.respond = function (message, request) {
-    var response = '';
+    var BotResponse = '';
     var debug = false;
 
     if (message.text.length === 0) {
-        response = 'Error, null message';
+        BotResponse = 'Error, null message';
     }
     else
     {
-        response += 'Dogbot reporting for duty!' + '\r';
+        BotResponse += 'Dogbot reporting for duty!' + '\r';
     }
     // general debug
     if (message.text.includes("-debug")){
     debug = true;
-    response += 'Dogbot received: \"' + message.text +  '\"\r';
+    BotResponse += 'Dogbot received: \"' + message.text +  '\"\r';
     }
     // verbose debug
     if (message.text.includes("-verbose")){
-        response += 'Full Original Message : ' + JSON.stringify(request) + '\r\r';
+        BotResponse += 'Full Original Message : ' + JSON.stringify(request) + '\r\r';
     }
 
     // determine request type
@@ -34,17 +36,17 @@ DogBot.prototype.respond = function (message, request) {
     // determine message type
     switch(message.type) {
         case 'slack-slash-command':
-            if (debug){response += 'Message Type: Slack Command' + '\r';}
-            response += SlackResponse(message, request, debug, request_type);
+            if (debug){BotResponse += 'Message Type: Slack Command' + '\r';}
+            BotResponse += SlackResponse(message, request, debug, request_type);
 
             break;
         case 'facebook':
+            BotResponse += 'Facebook integration not implemented' + '\r';
             break;
         default:
-            response += 'Message type undefined';
+            BotResponse += 'Message type undefined';
     }
-
-    return response;
+    return BotResponse;
 };
 
 function classify_request(message){
@@ -65,7 +67,7 @@ function classify_request(message){
             request_type = "reservation_unknown";
         }
     }
-    // Funny Dog Pictures
+    // Funny Dog Jokes
 
     return request_type;
 };
@@ -73,6 +75,7 @@ function classify_request(message){
 function SlackResponse(message, request, debug, request_type){
     var SlackResponse = '';
     var User = message.sender;
+    var UserID = 0;
     var RequestTime =  new Date();
 
     if (debug){
@@ -104,7 +107,22 @@ function SlackResponse(message, request, debug, request_type){
         var EndDate = new Date();
     }
 */
+// Create or Update Hubspot Customer Data
+UserID = Hubspot.Search("SlackID", User);
+if (UserID === 0){
+    // Create a new user
+}
 
+else {
+    // Modify/Update User touch
+}
+
+
+
+
+
+
+// Create or Update Google Calendar
 // BEGIN PSUEDOCODE
     // Switch on Message Type
 

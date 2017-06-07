@@ -18,6 +18,8 @@
   "homepage": "https://github.com/dogdave/dogbot#readme",
   "dependencies": {
     "claudia-bot-builder": "^2.15.0",
+    "google-auth-library": "^0.10.0",
+    "googleapis": "^19.0.0",
     "huh": "^2.0.1",
     "moment": "^2.18.1"
   }
