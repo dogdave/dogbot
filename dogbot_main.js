@@ -112,11 +112,15 @@ function SlackResponse(message, request, debug, request_type){
 
 // Create or Update Hubspot Customer Data
 UserID = Hubspot.Search("SlackID", SenderName);
+
 if (UserID === 0){
     // Create a new user
+    if(debug){SlackResponse += 'Creating New User' + '\r';}
+    // Search for just created user
 }
 
 else {
+    if(debug){SlackResponse += 'User VID: ' + UserID + '\r';}
     // Modify/Update User touch
 }
 
