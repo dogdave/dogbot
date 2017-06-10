@@ -1,11 +1,18 @@
 /* Comment Block Goes Here
 
  */
+'use strict';
 // Top Line Includes
+
+//var API_Keys = require('./API_Access.js');
+
 var moment = require('moment');
 var http_request = require('request');
-var API_Keys = require('./API_Access.js');
-var Hubspot = require('./Hubspot_Integration.js');
+var Client = require('hubspot');
+var client = new Client();
+const aws = require('aws-sdk');
+const lambda = new aws.Lambda();
+
 
 // Main Function
 var DogBot = function (){};
@@ -15,6 +22,7 @@ DogBot.prototype.respond = function (message, request) {
 
     if (message.text.length === 0) {
         BotResponse = 'Error, null message';
+        return BotResponse;
     }
     else
     {
@@ -27,18 +35,17 @@ DogBot.prototype.respond = function (message, request) {
     }
     // verbose debug
     if (message.text.includes("-verbose")){
-        BotResponse += 'Full Original Message : ' + JSON.stringify(request) + '\r\r';
+        BotResponse += 'Full Message : ' + JSON.stringify(message) + '\r\r';
+        BotResponse += 'Full Original Request : ' + JSON.stringify(request) + '\r\r';
     }
 
     // determine request type
-    var request_type = classify_request(message);
 
     // determine message type
     switch(message.type) {
         case 'slack-slash-command':
             if (debug){BotResponse += 'Message Type: Slack Command' + '\r';}
-            BotResponse += SlackResponse(message, request, debug, request_type);
-
+            return SlackResponse(message, request, debug, BotResponse);
             break;
         case 'facebook':
             BotResponse += 'Facebook integration not implemented' + '\r';
@@ -72,79 +79,72 @@ function classify_request(message){
     return request_type;
 };
 
-function SlackResponse(message, request, debug, request_type){
-    var SlackResponse = '';
-    var SenderID = message.sender;
-    var SenderName = request.indexOf("username")
-    var UserID = 0;
-    var RequestTime =  new Date();
+function SlackResponse(message, request, debug, currentresponse){
+    var SlackResponse = currentresponse;
+    var SenderID = message.originalRequest.user_name;
+    //var SenderName = request.indexOf("username") // fix
+    var CustomerID = 0;
+    //    var RequestTime =  new Date();
 
     if (debug){
         SlackResponse += 'Slack Debug On' + '\r';
         SlackResponse += 'SenderID: ' + SenderID + '\r';
-        SlackResponse += 'Time: ' + RequestTime.toLocaleString() + '\r';
+  //      SlackResponse += 'Time: ' + RequestTime.toLocaleString() + '\r';
     }
+// Parse Date & Time requests with Moment library
 
-/* Old Code - Ignore
-    var parse_index =0;
+/// ***** CURRENTLY ASSUME SLACK USERNAME IS FIRST NAME IN HUBSPOT ***** ////
 
+// Associate with Hubspot User and perform reservation
 
-    // New Reservation Request?
-    parse_index = message.text.indexOf("reservation");
+// Lambda Deployment variable
+// Hubspot API Setup
 
-    if (debug){
-        SlackResponse += 'Reservation Index: ' + parse_index + '\r';
-    }
+    client.useKey(process.env.HAPI_Key);
+    console.log('API Key set \r');
 
-    if (parse_index !== -1)
-    {
-        // Customer wants to make a reservation
-        if(debug) {
-            SlackResponse += 'Reservation String: ' + message.text.substring(parse_index) + '\r';
-            SlackResponse += 'Moment Parse: ' + moment(message.text.substring(parse_index)).toLocaleString() + '\r';
-            SlackResponse += 'Request Type: ' + request_type + '\r';
+    client.contacts.search(SenderID,
+        function processSearchResult(err, res) {
+            console.log('In processSearchResult function \r');
+            console.log(JSON.stringify(res));
+            if (err) { console.log('uh oh'); throw err; }
+            if (res.total === 0)
+            {
+                if(debug){console.log('New Customer Identified' + '\r')}
+
+                // if(debug){SlackResponse += 'New Customer Identified' + '\r'}
+                // Create a new Contact
+                var payload = {
+                    "properties": [
+                        {
+                            "property": "firstname",
+                            "value": SenderID
+                        }]
+                }
+                client.contacts.create(payload, function(err, res){
+                    if (err) { throw err; }
+                    CustomerID = res.vid;
+                    if(debug){console.log('New Customer Created with CustomerID: ' + CustomerID + '\r')}
+                    // if(debug){SlackResponse += 'New Customer Created with CustomerID: ' + CustomerID + '\r'}
+                        // Call Google Handler Here with Customer ID & Data
+                    //return SlackResponse;
+                    })
+            }
+            else
+            {
+                CustomerID = res.contacts[0].vid;
+                if(debug){console.log('Hubspot CustomerID:' + CustomerID + '\r')}
+                //   if(debug){SlackResponse += 'Hubspot CustomerID:' + CustomerID + '\r'}
+            }
+
+            // Call Google Handler with Customer ID & Data
+          //  return SlackResponse;
         }
-        var StartDate = new Date();
-        var EndDate = new Date();
-    }
-*/
+    );
 
-
-// Create or Update Hubspot Customer Data
-UserID = Hubspot.Search("SlackID", SenderName);
-
-if (UserID === 0){
-    // Create a new user
-    if(debug){SlackResponse += 'Creating New User' + '\r';}
-    // Search for just created user
-}
-
-else {
-    if(debug){SlackResponse += 'User VID: ' + UserID + '\r';}
-    // Modify/Update User touch
-}
-
-
-
-
-/// ***** MUST ASSUME SLACK USERNAME IS FIRST NAME IN HUBSPOT ***** ////
-
-// Create or Update Google Calendar
-// BEGIN PSUEDOCODE
-    // Switch on Message Type
-
-        // Reservation Status Request
-            // Match User ID and next upcoming calendar object in Google Calendar
-            // Create confirmation message
-
-        // New Reservation Request
-            // Get Start Date + Time
-            // Get End Date + Time
-            // Create reservation in Google Calendar
-            // Create confirmation message with details
-
+    console.log('About to return \r');
     return SlackResponse;
-};
+}
 
 
 module.exports = DogBot;

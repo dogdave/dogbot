@@ -17,10 +17,14 @@
   },
   "homepage": "https://github.com/dogdave/dogbot#readme",
   "dependencies": {
+    "aws-sdk": "^2.67.0",
     "claudia-bot-builder": "^2.15.0",
     "google-auth-library": "^0.10.0",
     "googleapis": "^19.0.0",
+    "hubspot": "^0.4.4",
     "huh": "^2.0.1",
-    "moment": "^2.18.1"
+    "moment": "^2.18.1",
+    "promise-delay": "^2.1.0",
+    "request-promise": "^4.2.1"
   }
 }
