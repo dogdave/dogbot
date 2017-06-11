@@ -99,9 +99,11 @@ function SlackResponse(message, request, debug, currentresponse){
 
 // Lambda Deployment variable
 // Hubspot API Setup
-
+ //   client.useKey(API_Keys.HAPI_Key);
     client.useKey(process.env.HAPI_Key);
     console.log('API Key set \r');
+    console.log(message);
+    console.log(currentresponse);
 
     client.contacts.search(SenderID,
         function processSearchResult(err, res) {

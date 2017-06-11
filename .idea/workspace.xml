@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b69c365-7504-41ba-837b-12a896661c39" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Hubspot_Integration.js" afterPath="$PROJECT_DIR$/Hubspot_Integration.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bot.js" afterPath="$PROJECT_DIR$/bot.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dogbot_main.js" afterPath="$PROJECT_DIR$/dogbot_main.js" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -21,11 +22,29 @@
       <file leaf-file-name="dogbot_main.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dogbot_main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="89" column="0" lean-forward="true" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state relative-caret-position="301">
+              <caret line="102" column="40" lean-forward="false" selection-start-line="102" selection-start-column="40" selection-end-line="102" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="scratch_4.js" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_4.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Hubspot_Integration.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Hubspot_Integration.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="45" column="9" lean-forward="true" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -34,8 +53,8 @@
         <entry file="file://$PROJECT_DIR$/node_modules/hubspot/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="306">
-                <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <first_editor relative-caret-position="17">
+                <caret line="31" column="7" lean-forward="true" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -43,35 +62,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/hubspot/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="client.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/node_modules/hubspot/lib/client.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="114" column="4" lean-forward="true" selection-start-line="114" selection-start-column="4" selection-end-line="114" selection-end-column="4" />
+            <state relative-caret-position="391">
+              <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SLACK_MESSAGE_MESSAGE_BUILDER.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/claudia-bot-builder/docs/SLACK_MESSAGE_MESSAGE_BUILDER.md">
+      <file leaf-file-name="bot.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bot.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="2" lean-forward="false" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node_modules/claudia-bot-builder/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-740">
-                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <first_editor relative-caret-position="-657">
+                <caret line="65" column="81" lean-forward="false" selection-start-line="65" selection-start-column="81" selection-end-line="65" selection-end-column="144" />
                 <folding>
-                  <marker date="1496690347788" expanded="true" signature="3900:3915" ph="{...}" />
-                  <marker date="1496690347788" expanded="true" signature="3934:4289" ph="{...}" />
+                  <marker date="1496690347708" expanded="true" signature="1914:2034" ph="{...}" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -79,33 +97,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Hubspot_Integration.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Hubspot_Integration.js">
+      <file leaf-file-name="bot-builder.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node_modules/claudia-bot-builder/lib/bot-builder.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-867">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="52" />
-              <folding>
-                <element signature="e#0#39#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="scratch_2.js" pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_2.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+            <state relative-caret-position="85">
+              <caret line="29" column="10" lean-forward="true" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="scratch_3.js" pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_3.js">
+      <file leaf-file-name="delayed-reply.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node_modules/claudia-bot-builder/lib/slack/delayed-reply.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+            <state relative-caret-position="272">
+              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node_modules/claudia-bot-builder/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -126,9 +142,23 @@
       <find>p</find>
       <find>promise</find>
       <find>hubS</find>
+      <find>res</find>
+      <find>Api_access</find>
+      <find>lambda</find>
+      <find>lambda.</find>
+      <find>lambda.invo</find>
+      <find>lambda.invoke</find>
+      <find>lambda.invok</find>
+      <find>l</find>
+      <find>lamb</find>
+      <find>lambda invo</find>
+      <find>lambda invok</find>
+      <find>invoke</find>
+      <find>usekey</find>
     </findStrings>
     <dirStrings>
       <dir>C:\Users\Dave\IdeaProjects\dogbot\node_modules\claudia-api-builder</dir>
+      <dir>C:\Users\Dave\IdeaProjects\dogbot\node_modules\aws-sdk</dir>
     </dirStrings>
   </component>
   <component name="Git.Rebase.Settings">
@@ -185,18 +215,20 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$USER_HOME$/.aws/credentials" />
-        <option value="$PROJECT_DIR$/bot.js" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.js" />
         <option value="$PROJECT_DIR$/HubSpot API" />
         <option value="$PROJECT_DIR$/HubSpot_API" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/HubSpot_Integration.js" />
-        <option value="$PROJECT_DIR$/API_Access.js" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_1.js" />
-        <option value="$PROJECT_DIR$/dogbot_main.js" />
-        <option value="$PROJECT_DIR$/Hubspot_Integration.js" />
-        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_3.js" />
+        <option value="$PROJECT_DIR$/Google_Integration.js" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_2.js" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_3.js" />
+        <option value="$PROJECT_DIR$/API_Access.js" />
+        <option value="$PROJECT_DIR$/Hubspot_Integration.js" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_4.js" />
+        <option value="$PROJECT_DIR$/dogbot_main.js" />
+        <option value="$PROJECT_DIR$/bot.js" />
       </list>
     </option>
   </component>
@@ -205,10 +237,10 @@
     <package-json value="$PROJECT_DIR$/package.json" />
   </component>
   <component name="JsFlowSettings">
-    <service-enabled>false</service-enabled>
+    <service-enabled>true</service-enabled>
     <exe-path />
     <annotation-enable>false</annotation-enable>
-    <other-services-enabled>false</other-services-enabled>
+    <other-services-enabled>true</other-services-enabled>
   </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
@@ -286,7 +318,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="hubspot" />
+              <option name="myItemId" value="claudia-bot-builder" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -304,7 +336,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="hubspot" />
+              <option name="myItemId" value="claudia-bot-builder" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -312,21 +344,55 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dogbot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dogbot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node_modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="claudia-bot-builder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slack" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
     <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="JavaScript" />
+    <property name="JavaScriptPreferStrict" value="false" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Dave\IdeaProjects\dogbot" />
+      <recent name="C:\Users\Dave\IdeaProjects\dogbot\node_modules" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -340,20 +406,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.scratch_2.js">
+  <component name="RunManager" selected="Node.js.bot.js">
     <configuration default="false" name="dogbot_main.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="dogbot_main.js" working-dir="$PROJECT_DIR$">
       <method />
     </configuration>
     <configuration default="false" name="HubSpot_Integration.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="$PROJECT_DIR$/Hubspot_Integration.js" working-dir="$PROJECT_DIR$">
       <method />
     </configuration>
-    <configuration default="false" name="scratch_1.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="$APPLICATION_CONFIG_DIR$/scratches/scratch_1.js" working-dir="$PROJECT_DIR$">
-      <method />
-    </configuration>
     <configuration default="false" name="scratch_2.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="$APPLICATION_CONFIG_DIR$/scratches/scratch_2.js" working-dir="$PROJECT_DIR$">
       <method />
     </configuration>
     <configuration default="false" name="scratch_3.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="$APPLICATION_CONFIG_DIR$/scratches/scratch_3.js" working-dir="$PROJECT_DIR$">
+      <method />
+    </configuration>
+    <configuration default="false" name="scratch_4.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="$APPLICATION_CONFIG_DIR$/scratches/scratch_4.js" working-dir="$PROJECT_DIR$">
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -593,6 +659,7 @@
       <setting name="passParentEnv" value="true" />
       <setting name="launchBrowser" value="true" />
       <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -724,6 +791,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -759,17 +832,17 @@
       <item index="0" class="java.lang.String" itemvalue="Node.js.bot.js" />
       <item index="1" class="java.lang.String" itemvalue="Node.js.dogbot_main.js" />
       <item index="2" class="java.lang.String" itemvalue="Node.js.HubSpot_Integration.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.scratch_1.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.scratch_2.js" />
-      <item index="5" class="java.lang.String" itemvalue="Node.js.scratch_3.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.scratch_2.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.scratch_3.js" />
+      <item index="5" class="java.lang.String" itemvalue="Node.js.scratch_4.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.scratch_2.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.scratch_3.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.HubSpot_Integration.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.scratch_1.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.dogbot_main.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.HubSpot_Integration.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.scratch_4.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.dogbot_main.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.scratch_3.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.scratch_2.js" />
       </list>
     </recent_temporary>
   </component>
@@ -784,7 +857,8 @@
       <option name="presentableId" value="Default" />
       <updated>1496684500321</updated>
       <workItem from="1496689821988" duration="115000" />
-      <workItem from="1496689955761" duration="71542000" />
+      <workItem from="1496689955761" duration="74923000" />
+      <workItem from="1496938152948" duration="125294000" />
     </task>
     <task id="LOCAL-00001" summary="Hello World test">
       <created>1496688008111</created>
@@ -926,11 +1000,25 @@
       <option name="project" value="LOCAL" />
       <updated>1496876482041</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Revised for google integration">
+      <created>1496928770435</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1496928770435</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Code Refactor - Hubspot code added, not working">
+      <created>1497097846184</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1497097846184</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71657000" />
+    <option name="totallyTimeSpent" value="200332000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -943,20 +1031,18 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39957717" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32875264" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3319239" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19375" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -966,6 +1052,8 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32875264" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -983,17 +1071,14 @@
     <MESSAGE value="Beginning slack date parsing &amp; integration" />
     <MESSAGE value="Started type parsing" />
     <MESSAGE value="Revised for google integration" />
-    <option name="LAST_COMMIT_MESSAGE" value="Revised for google integration" />
+    <MESSAGE value="Code Refactor - Hubspot code added, not working" />
+    <option name="LAST_COMMIT_MESSAGE" value="Code Refactor - Hubspot code added, not working" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <option name="time" value="5" />
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="NodeJSConfigurationType">
-        <watch expression="temp.contacts" />
-      </configuration>
-    </watches-manager>
+    <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -1004,9 +1089,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1014,9 +1097,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1032,7 +1113,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1040,7 +1120,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1056,7 +1135,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1064,9 +1142,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-104">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1074,7 +1149,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1083,7 +1157,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -1094,7 +1167,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="102">
             <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -1105,37 +1177,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="-714">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding>
-              <marker date="1496690347769" expanded="true" signature="3651:3666" ph="{...}" />
-              <marker date="1496690347769" expanded="true" signature="3688:4008" ph="{...}" />
-              <marker date="1496690347769" expanded="true" signature="8705:8720" ph="{...}" />
-              <marker date="1496690347769" expanded="true" signature="8742:9330" ph="{...}" />
-              <marker date="1496690347769" expanded="true" signature="12516:12531" ph="{...}" />
-              <marker date="1496690347769" expanded="true" signature="12553:13169" ph="{...}" />
-              <marker date="1496690347769" expanded="true" signature="21875:21890" ph="{...}" />
-              <marker date="1496690347769" expanded="true" signature="21912:22899" ph="{...}" />
-              <marker date="1496690347769" expanded="true" signature="24664:24679" ph="{...}" />
-              <marker date="1496690347769" expanded="true" signature="24701:24805" ph="{...}" />
-              <marker date="1496690347769" expanded="true" signature="26562:26577" ph="{...}" />
-              <marker date="1496690347769" expanded="true" signature="26599:26714" ph="{...}" />
-              <marker date="1496690347769" expanded="true" signature="28465:28480" ph="{...}" />
-              <marker date="1496690347769" expanded="true" signature="28502:28615" ph="{...}" />
-              <marker date="1496690347769" expanded="true" signature="30370:30385" ph="{...}" />
-              <marker date="1496690347769" expanded="true" signature="30407:30510" ph="{...}" />
-              <marker date="1496690347769" expanded="true" signature="31682:31697" ph="{...}" />
-              <marker date="1496690347769" expanded="true" signature="31719:31794" ph="{...}" />
-              <marker date="1496690347769" expanded="true" signature="32980:32995" ph="{...}" />
-              <marker date="1496690347769" expanded="true" signature="33017:33148" ph="{...}" />
-              <marker date="1496690347769" expanded="true" signature="33030:33144" ph="[...]" />
-              <marker date="1496690347769" expanded="true" signature="33575:34031" ph="{...}" />
-              <marker date="1496690347769" expanded="true" signature="33586:34031" ph="{...}" />
-              <marker date="1496690347769" expanded="true" signature="33604:34027" ph="{&quot;type&quot;: 'template'...}" />
-              <marker date="1496690347769" expanded="true" signature="33645:34021" ph="{&quot;template_type&quot;: 'generic'...}" />
-              <marker date="1496690347769" expanded="true" signature="33699:34013" ph="[...]" />
-              <marker date="1496690347769" expanded="true" signature="33700:34012" ph="{&quot;title&quot;: 'Breaking News: Record Thunderstorms'...}" />
-              <marker date="1496690347769" expanded="true" signature="33953:34002" ph="[...]" />
-              <marker date="1496690347769" expanded="true" signature="33954:34001" ph="{&quot;type&quot;: 'element_share'...}" />
-            </folding>
           </first_editor>
           <second_editor />
         </state>
@@ -1145,7 +1186,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1154,7 +1194,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -1165,7 +1204,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="-370">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -1181,19 +1219,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/claudia-bot-builder/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/claudia-bot-builder/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1202,7 +1231,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -1212,7 +1240,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1220,7 +1247,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1228,7 +1254,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1236,7 +1261,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1245,7 +1269,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -1255,15 +1278,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/claudia-bot-builder/lib/bot-builder.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1271,7 +1285,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="2607" lean-forward="false" selection-start-line="0" selection-start-column="2603" selection-end-line="0" selection-end-column="2607" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1280,7 +1293,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="119">
             <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="16" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -1290,7 +1302,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="446">
           <caret line="60" column="13" lean-forward="false" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1307,111 +1318,15 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="374">
             <caret line="88" column="4" lean-forward="false" selection-start-line="88" selection-start-column="4" selection-end-line="88" selection-end-column="4" />
-            <folding>
-              <marker date="1496852369354" expanded="true" signature="1220:1487" ph="{...}" />
-              <marker date="1496852369354" expanded="true" signature="3149:3263" ph="{...}" />
-              <marker date="1496852369354" expanded="true" signature="3495:3521" ph="{...}" />
-              <marker date="1496852369354" expanded="true" signature="3639:3904" ph="{...}" />
-              <marker date="1496852369354" expanded="true" signature="3674:3902" ph="{...}" />
-              <marker date="1496852369354" expanded="true" signature="3706:3773" ph="{...}" />
-              <marker date="1496852369354" expanded="true" signature="3830:3898" ph="{...}" />
-              <marker date="1496852369354" expanded="true" signature="4195:4322" ph="{...}" />
-              <marker date="1496852369354" expanded="true" signature="4230:4320" ph="{...}" />
-              <marker date="1496852369354" expanded="true" signature="4710:4805" ph="{...}" />
-              <marker date="1496852369354" expanded="true" signature="4745:4803" ph="{...}" />
-              <marker date="1496852369354" expanded="true" signature="5444:5453" ph="/*...*/" />
-              <marker date="1496852369354" expanded="true" signature="5759:6607" ph="{&quot;my_field&quot;: 'my_value'...}" />
-              <marker date="1496852369354" expanded="true" signature="6023:6141" ph="[...]" />
-              <marker date="1496852369354" expanded="true" signature="6145:6449" ph="//..." />
-              <marker date="1496852369354" expanded="true" signature="6465:6605" ph="{...}" />
-              <marker date="1496852369354" expanded="true" signature="6529:6601" ph="{&quot;filename&quot;: 'topsecret.jpg'...}" />
-              <marker date="1496852369354" expanded="true" signature="6728:6864" ph="{...}" />
-              <marker date="1496852369354" expanded="true" signature="6741:6795" ph="{...}" />
-              <marker date="1496852369354" expanded="true" signature="8020:8812" ph="{&quot;method&quot;: 'PUT'...}" />
-              <marker date="1496852369354" expanded="true" signature="8143:8432" ph="[...]" />
-              <marker date="1496852369354" expanded="true" signature="8151:8338" ph="{&quot;content-type&quot;: 'application/json'...}" />
-              <marker date="1496852369354" expanded="true" signature="8515:8808" ph="{...}" />
-              <marker date="1496852369354" expanded="true" signature="8551:8802" ph="[...]" />
-              <marker date="1496852369354" expanded="true" signature="8561:8754" ph="{&quot;content-type&quot;: 'application/json'...}" />
-              <marker date="1496852369354" expanded="true" signature="8849:8999" ph="{...}" />
-              <marker date="1496852369354" expanded="true" signature="8866:8926" ph="{...}" />
-              <marker date="1496852369354" expanded="true" signature="9199:9295" ph="{...}" />
-              <marker date="1496852369354" expanded="true" signature="9211:9293" ph="{&quot;user&quot;: 'username'...}" />
-              <marker date="1496852369354" expanded="true" signature="9427:9474" ph="{...}" />
-              <marker date="1496852369354" expanded="true" signature="9439:9472" ph="{&quot;bearer&quot;: 'bearerToken'...}" />
-              <marker date="1496852369354" expanded="true" signature="10470:10510" ph="{...}" />
-              <marker date="1496852369354" expanded="true" signature="11497:11600" ph="{&quot;url&quot;: 'https://api.github.com/repos/request/request'...}" />
-              <marker date="1496852369354" expanded="true" signature="11565:11598" ph="{&quot;User-Agent&quot;: 'request'...}" />
-              <marker date="1496852369354" expanded="true" signature="11644:11827" ph="{...}" />
-              <marker date="1496852369354" expanded="true" signature="11690:11825" ph="{...}" />
-              <marker date="1496852369354" expanded="true" signature="12097:12164" ph="//..." />
-              <marker date="1496852369354" expanded="true" signature="12213:12332" ph="{&quot;callback&quot;: 'http://mysite.com/callback/'...}" />
-              <marker date="1496852369354" expanded="true" signature="12452:13958" ph="{...}" />
-              <marker date="1496852369354" expanded="true" signature="12456:12724" ph="//..." />
-              <marker date="1496852369354" expanded="true" signature="12878:12986" ph="//..." />
-              <marker date="1496852369354" expanded="true" signature="13040:13247" ph="{&quot;consumer_key&quot;: CONSUMER_KEY...}" />
-              <marker date="1496852369354" expanded="true" signature="13372:13955" ph="{...}" />
-              <marker date="1496852369354" expanded="true" signature="13492:13665" ph="{&quot;consumer_key&quot;: CONSUMER_KEY...}" />
-              <marker date="1496852369354" expanded="true" signature="13747:13830" ph="{&quot;screen_name&quot;: perm_data.screen_name...}" />
-              <marker date="1496852369354" expanded="true" signature="13919:13950" ph="{...}" />
-              <marker date="1496852369354" expanded="true" signature="19459:19472" ph="/*...*/" />
-              <marker date="1496852369354" expanded="true" signature="19499:19512" ph="/*...*/" />
-              <marker date="1496852369354" expanded="true" signature="20569:20745" ph="{&quot;url&quot;: 'https://api.some-server.com/'...}" />
-              <marker date="1496852369354" expanded="true" signature="21212:21617" ph="{&quot;url&quot;: 'https://api.some-server.com/'...}" />
-              <marker date="1496852369354" expanded="true" signature="21273:21615" ph="{&quot;passphrase&quot;: 'password'...}" />
-              <marker date="1496852369354" expanded="true" signature="21363:21534" ph="//..." />
-              <marker date="1496852369354" expanded="true" signature="21735:21844" ph="{&quot;url&quot;: 'https://api.some-server.com/'...}" />
-              <marker date="1496852369354" expanded="true" signature="21796:21842" ph="{&quot;secureProtocol&quot;: 'SSLv3_method'...}" />
-              <marker date="1496852369354" expanded="true" signature="22289:22402" ph="{&quot;url&quot;: 'https://api.some-server.com/'...}" />
-              <marker date="1496852369354" expanded="true" signature="22350:22400" ph="{...}" />
-              <marker date="1496852369354" expanded="true" signature="22918:23508" ph="{&quot;method&quot;: 'GET'...}" />
-              <marker date="1496852369354" expanded="true" signature="23041:23504" ph="{&quot;url&quot;: 'http://www.mockbin.com/har'...}" />
-              <marker date="1496852369354" expanded="true" signature="23121:23235" ph="[...]" />
-              <marker date="1496852369354" expanded="true" signature="23131:23227" ph="{&quot;name&quot;: 'content-type'...}" />
-              <marker date="1496852369354" expanded="true" signature="23253:23498" ph="{&quot;mimeType&quot;: 'application/x-www-form-urlencoded'...}" />
-              <marker date="1496852369354" expanded="true" signature="23326:23490" ph="[...]" />
-              <marker date="1496852369354" expanded="true" signature="23338:23401" ph="{&quot;name&quot;: 'foo'...}" />
-              <marker date="1496852369354" expanded="true" signature="23413:23480" ph="{&quot;name&quot;: 'hello'...}" />
-              <marker date="1496852369354" expanded="true" signature="23513:23652" ph="//..." />
-              <marker date="1496852369354" expanded="true" signature="37041:37079" ph="{...}" />
-              <marker date="1496852369354" expanded="true" signature="37082:37213" ph="//..." />
-              <marker date="1496852369354" expanded="true" signature="37256:37297" ph="{...}" />
-              <marker date="1496852369354" expanded="true" signature="39630:39839" ph="{...}" />
-              <marker date="1496852369354" expanded="true" signature="39679:39777" ph="//..." />
-              <marker date="1496852369354" expanded="true" signature="40030:40363" ph="{&quot;method&quot;: 'PUT'...}" />
-              <marker date="1496852369354" expanded="true" signature="40125:40357" ph="[...]" />
-              <marker date="1496852369354" expanded="true" signature="40127:40310" ph="{&quot;content-type&quot;: 'application/json'...}" />
-              <marker date="1496852369354" expanded="true" signature="40401:40631" ph="{...}" />
-              <marker date="1496852369354" expanded="true" signature="40439:40532" ph="{...}" />
-              <marker date="1496852369354" expanded="true" signature="40538:40625" ph="{...}" />
-              <marker date="1496852369354" expanded="true" signature="41041:41114" ph="{&quot;method&quot;: 'GET'...}" />
-              <marker date="1496852369354" expanded="true" signature="41152:41362" ph="{...}" />
-              <marker date="1496852369354" expanded="true" signature="41393:41483" ph="{...}" />
-              <marker date="1496852369354" expanded="true" signature="41522:41739" ph="{...}" />
-              <marker date="1496852369354" expanded="true" signature="41609:41734" ph="{...}" />
-              <marker date="1496852369354" expanded="true" signature="42001:42042" ph="{...}" />
-              <marker date="1496852369354" expanded="true" signature="42314:42355" ph="{...}" />
-              <marker date="1496852369354" expanded="true" signature="42540:42581" ph="{...}" />
-              <marker date="1496852369354" expanded="true" signature="43069:43110" ph="{...}" />
-              <marker date="1496852369354" expanded="true" signature="43501:43694" ph="{...}" />
-            </folding>
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/API_Access.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/claudia-bot-builder/docs/SLACK_MESSAGE_MESSAGE_BUILDER.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-740">
+          <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
             <folding>
               <marker date="1496690347788" expanded="true" signature="3900:3915" ph="{...}" />
@@ -1419,6 +1334,21 @@
             </folding>
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/hubspot/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="41" lean-forward="true" selection-start-line="0" selection-start-column="41" selection-end-line="0" selection-end-column="41" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1435,44 +1365,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bot.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hubspot_Integration.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-867">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="52" />
-          <folding>
-            <element signature="e#0#39#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_3.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+        <state relative-caret-position="119">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="17" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+        <state relative-caret-position="255">
+          <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Google_Integration.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/aws-sdk/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/aws-sdk/lib/aws.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/aws-sdk/clients/lambda.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="122" column="18" lean-forward="false" selection-start-line="122" selection-start-column="18" selection-end-line="122" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API_Access.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="31" lean-forward="false" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
           <folding />
         </state>
       </provider>
@@ -1480,8 +1427,8 @@
     <entry file="file://$PROJECT_DIR$/node_modules/hubspot/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="306">
-            <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <first_editor relative-caret-position="17">
+            <caret line="31" column="7" lean-forward="true" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
             <folding />
           </first_editor>
           <second_editor />
@@ -1490,13 +1437,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/hubspot/lib/client.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="114" column="4" lean-forward="true" selection-start-line="114" selection-start-column="4" selection-end-line="114" selection-end-column="4" />
+        <state relative-caret-position="391">
+          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/hubspot/index.js">
+    <entry file="file://$PROJECT_DIR$/node_modules/claudia-bot-builder/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-657">
+            <caret line="65" column="81" lean-forward="false" selection-start-line="65" selection-start-column="81" selection-end-line="65" selection-end-column="144" />
+            <folding>
+              <marker date="1496690347708" expanded="true" signature="1914:2034" ph="{...}" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/claudia-bot-builder/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1504,13 +1464,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/claudia-bot-builder/lib/bot-builder.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="29" column="10" lean-forward="true" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/claudia-bot-builder/lib/slack/delayed-reply.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_4.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hubspot_Integration.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="45" column="9" lean-forward="true" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bot.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="2" lean-forward="false" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/dogbot_main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="89" column="0" lean-forward="true" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state relative-caret-position="301">
+          <caret line="102" column="40" lean-forward="false" selection-start-line="102" selection-start-column="40" selection-end-line="102" selection-end-column="40" />
+          <folding />
         </state>
       </provider>
     </entry>
