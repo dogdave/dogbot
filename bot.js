@@ -1,6 +1,8 @@
 // Top line includes
 var botBuilder = require('claudia-bot-builder');
-var dogbot = require('./dogbot_main.js');
+var Dogbot = require('./dogbot_main.js');
+var dogbot = new Dogbot();
+
 const promiseDelay = require('promise-delay');
 
 
@@ -10,7 +12,6 @@ const promiseDelay = require('promise-delay');
 
 
 
-dogbot = new dogbot();
 const aws = require('aws-sdk');
 const lambda = new aws.Lambda();
 

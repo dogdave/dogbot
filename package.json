@@ -24,6 +24,7 @@
     "hubspot": "^0.4.4",
     "huh": "^2.0.1",
     "moment": "^2.18.1",
+    "one-liner-joke": "^1.0.0",
     "promise-delay": "^2.1.0",
     "request-promise": "^4.2.1"
   }
